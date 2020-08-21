@@ -65,9 +65,9 @@ This is the checklist version of process for clean installing your Mac. To see v
     - [ ] ~/Pictures
 - Re-installation
   - [ ] Bootable USB
-    - [ ] [Download macOS Mojave](https://itunes.apple.com/tw/app/macos-mojave/id1398502828?l=en&mt=12)
+    - [ ] [Download macOS Catalina](https://apps.apple.com/tw/app/macos-catalina/id1466841314)
     - [ ] Format USB drive with `Mac OS Extented (Journaled)` format and `Untitled` name
-    - [ ] Create bootable macOS USB with `sudo /Applications/Install\ macOS\ Mojave.app/Contents/Resources/createinstallmedia --volume /Volumes/Untitled --applicationpath /Applications/Install\ macOS\ Mojave.app --nointeraction`
+    - [ ] Create bootable macOS USB with `sudo /Applications/Install\ macOS\ Catalina.app/Contents/Resources/createinstallmedia --volume /Volumes/Untitled --nointeraction --downloadassets`
   - [ ] Backup everything again
     - Connect your Time Machine drive and run a full backup of your Mac
   - [ ] Make sure you have these ready
@@ -78,7 +78,7 @@ This is the checklist version of process for clean installing your Mac. To see v
   - [ ] Format and Install your Mac
     - [ ] Plug in the bootable USB
     - [ ] Restart & hold down the Option(⌥) key
-    - [ ] Choose Install macOS Mojave(the bootable USB)
+    - [ ] Choose Install macOS Catalina(the bootable USB)
     - [ ] Select `Disk Utility` from the menu and erase you Startup Disk(usually named Macintosh HD) with `Mac OS Extended (Journaled)`
     - [ ] Go back to the main menu; select Install macOS and choose your HDD when prompted
 - Migration
